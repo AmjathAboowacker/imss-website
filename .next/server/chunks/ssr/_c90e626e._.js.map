@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 6, "column": 0}, "map": {"version":3,"sources":[],"names":[],"mappings":"","debugId":null}},
+    {"offset": {"line": 24, "column": 0}, "map": {"version":3,"sources":["file:///D:/11IMSS/website/app/page.tsx"],"sourcesContent":["import Image from \"next/image\";\nimport { motion } from 'framer-motion';\n\nexport default function Home() {\n  return (\n    <>\n      <motion.div\n        animate={{ backgroundPosition: '100% 50%' }}\n        transition={{ repeat: Infinity, duration: 10, ease: \"linear\" }}\n        className=\"bg-gradient-to-r from-blue-500 via-pink-500 to-yellow-500 bg-[length:200%] h-screen w-full\"\n      />\n\n      \n\n    \n    </>\n  );\n}\n"],"names":[],"mappings":";;;;AACA;;;AAEe,SAAS;IACtB,qBACE;kBACE,cAAA,8OAAC,wJAAA,CAAA,SAAM,CAAC,GAAG;YACT,SAAS;gBAAE,oBAAoB;YAAW;YAC1C,YAAY;gBAAE,QAAQ;gBAAU,UAAU;gBAAI,MAAM;YAAS;YAC7D,WAAU;;;;;;;AAQlB","debugId":null}}]
+}

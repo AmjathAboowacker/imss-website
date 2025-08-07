@@ -1,0 +1,6 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 15, "column": 0}, "map": {"version":3,"sources":["file:///D:/11IMSS/website/app/page.tsx"],"sourcesContent":["'use client'\n\nimport { motion } from 'framer-motion';\nimport Navbar from './components/navigation';\nimport HeroSection from './components/hero';\n\nexport default function Home() {\n  return (\n    <motion.div\n      initial={{ backgroundPosition: '0% 100%' }}\n      animate={{ backgroundPosition: '100% 50%' }}\n      transition={{ repeat: Infinity, duration: 2, ease: \"linear\" }}\n      className=\"bg-gradient-to-r from-black via-red-950 to-black bg-[length:50%] bg-[position:0%_50%] flex flex-col items-center justify-center\"\n    >\n    \n     \n      \n    </motion.div>\n  );\n}\n "],"names":[],"mappings":";;;;AAEA;AAFA;;;AAMe,SAAS;IACtB,qBACE,8OAAC,0LAAA,CAAA,SAAM,CAAC,GAAG;QACT,SAAS;YAAE,oBAAoB;QAAU;QACzC,SAAS;YAAE,oBAAoB;QAAW;QAC1C,YAAY;YAAE,QAAQ;YAAU,UAAU;YAAG,MAAM;QAAS;QAC5D,WAAU;;;;;;AAOhB","debugId":null}}]
+}
